@@ -1,0 +1,20 @@
+name: Ürün önerisi / Feature request
+description: Kullanım ihtiyacınızı ve önerinizi paylaşın.
+title: "[Öneri] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Kullanım ihtiyacı / User need
+      description: Hangi durumda neyi kolaylaştırmak istiyorsunuz?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Önerilen deneyim / Suggested experience
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Öneriler değerlendirme içindir; yayın tarihi veya uygulama taahhüdü değildir. Lütfen özel bilgi paylaşmayın."
